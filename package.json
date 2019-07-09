@@ -1,0 +1,28 @@
+{
+  "name": "jsondatatos3",
+  "version": "1.0.0",
+  "description": "Lambda function to write SAP RFC Data Response to S3 objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Victorpalkin/JSONDatatoS3.git"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "SAP",
+    "S3"
+  ],
+  "author": "Viktor Palkin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Victorpalkin/JSONDatatoS3/issues"
+  },
+  "homepage": "https://github.com/Victorpalkin/JSONDatatoS3#readme",
+  "dependencies": {
+    "aws-sdk": "^2.489.0"
+  }
+}
