@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/Victorpalkin/JSONDatatoS3#readme",
   "dependencies": {
-    "aws-sdk": "^2.489.0"
+    "aws-sdk": "^2.489.0",
+    "json2csv": "^4.5.2"
   }
 }

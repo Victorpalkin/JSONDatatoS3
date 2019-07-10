@@ -1,0 +1,2 @@
+sam package --template-file template.yml --s3-bucket palkinvp-installation-media --output-template-file out.yaml
+sam deploy --template-file ./out.yaml --stack-name lambdaJSONDatatoS3 --capabilities CAPABILITY_IAM

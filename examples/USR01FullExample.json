@@ -1,0 +1,169 @@
+{
+  "input": {
+    "bucketName": "palkinvp-installation-media",
+    "fields": [ "DATA.WA" ],
+    "unwind": [ "DATA" ],
+    "data": {
+      "DELIMITER": "",
+      "NO_DATA": "",
+      "QUERY_TABLE": "USR01",
+      "ROWCOUNT": 25,
+      "ROWSKIPS": 0,
+      "DATA": [
+        {
+          "WA": "001DDIC                                 HK1"
+        },
+        {
+          "WA": "001SAP*                                 HK1"
+        },
+        {
+          "WA": "001DEVELOPER                            HK1                                                                   0"
+        },
+        {
+          "WA": "001BWDEVELOPER                          HK1                                                                   0"
+        },
+        {
+          "WA": "001DEVELOPER11                          HK1                                                                   0"
+        },
+        {
+          "WA": "001EA260A-00                            HK1                                                                   0"
+        },
+        {
+          "WA": "001EA260B-00                            HK1                                                                   0"
+        },
+        {
+          "WA": "001TESTLAMBDA                           HK1                                                                   0"
+        }
+      ],
+      "FIELDS": [
+        {
+          "FIELDNAME": "MANDT",
+          "OFFSET": "000000",
+          "LENGTH": "000003",
+          "TYPE": "C",
+          "FIELDTEXT": "Client"
+        },
+        {
+          "FIELDNAME": "BNAME",
+          "OFFSET": "000003",
+          "LENGTH": "000012",
+          "TYPE": "C",
+          "FIELDTEXT": "User Name in User Master Record"
+        },
+        {
+          "FIELDNAME": "STCOD",
+          "OFFSET": "000015",
+          "LENGTH": "000020",
+          "TYPE": "C",
+          "FIELDTEXT": "Start menu (old, replaced by XUSTART)"
+        },
+        {
+          "FIELDNAME": "SPLD",
+          "OFFSET": "000035",
+          "LENGTH": "000004",
+          "TYPE": "C",
+          "FIELDTEXT": "Spool: Output device"
+        },
+        {
+          "FIELDNAME": "SPLG",
+          "OFFSET": "000039",
+          "LENGTH": "000001",
+          "TYPE": "C",
+          "FIELDTEXT": "Print parameter 1"
+        },
+        {
+          "FIELDNAME": "SPDB",
+          "OFFSET": "000040",
+          "LENGTH": "000001",
+          "TYPE": "C",
+          "FIELDTEXT": "Print parameter 2"
+        },
+        {
+          "FIELDNAME": "SPDA",
+          "OFFSET": "000041",
+          "LENGTH": "000001",
+          "TYPE": "C",
+          "FIELDTEXT": "Print parameter 3"
+        },
+        {
+          "FIELDNAME": "DATFM",
+          "OFFSET": "000042",
+          "LENGTH": "000001",
+          "TYPE": "C",
+          "FIELDTEXT": "Date format"
+        },
+        {
+          "FIELDNAME": "DCPFM",
+          "OFFSET": "000043",
+          "LENGTH": "000001",
+          "TYPE": "C",
+          "FIELDTEXT": "Decimal Format"
+        },
+        {
+          "FIELDNAME": "HDEST",
+          "OFFSET": "000044",
+          "LENGTH": "000008",
+          "TYPE": "C",
+          "FIELDTEXT": "Host destination"
+        },
+        {
+          "FIELDNAME": "HMAND",
+          "OFFSET": "000052",
+          "LENGTH": "000003",
+          "TYPE": "C",
+          "FIELDTEXT": "Default host client"
+        },
+        {
+          "FIELDNAME": "HNAME",
+          "OFFSET": "000055",
+          "LENGTH": "000012",
+          "TYPE": "C",
+          "FIELDTEXT": "Default host user name"
+        },
+        {
+          "FIELDNAME": "MENON",
+          "OFFSET": "000067",
+          "LENGTH": "000001",
+          "TYPE": "C",
+          "FIELDTEXT": "Automatic Start"
+        },
+        {
+          "FIELDNAME": "MENUE",
+          "OFFSET": "000068",
+          "LENGTH": "000020",
+          "TYPE": "C",
+          "FIELDTEXT": "Menu name"
+        },
+        {
+          "FIELDNAME": "STRTT",
+          "OFFSET": "000088",
+          "LENGTH": "000020",
+          "TYPE": "C",
+          "FIELDTEXT": "Start menu (old, replaced by XUSTART)"
+        },
+        {
+          "FIELDNAME": "LANGU",
+          "OFFSET": "000108",
+          "LENGTH": "000001",
+          "TYPE": "C",
+          "FIELDTEXT": "Logon Language"
+        },
+        {
+          "FIELDNAME": "CATTKENNZ",
+          "OFFSET": "000109",
+          "LENGTH": "000001",
+          "TYPE": "C",
+          "FIELDTEXT": "CATT: Test Status"
+        },
+        {
+          "FIELDNAME": "TIMEFM",
+          "OFFSET": "000110",
+          "LENGTH": "000001",
+          "TYPE": "C",
+          "FIELDTEXT": "Time Format (12-/24-Hour Specification)"
+        }
+      ],
+      "OPTIONS": []
+    }
+  }
+}
