@@ -62,3 +62,4 @@ typings/
 
 # Code workspace files
 *.code-workspace
+out.yaml

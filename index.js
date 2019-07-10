@@ -19,7 +19,7 @@ exports.handler = async (event, context) => {
         Body: csv
     };
     try{
-        await putFileToS3(params);
+        s3Result = await putFileToS3(params);
     } catch (err) {
         return { statusCode: 500, body: err }
     }

@@ -12,4 +12,4 @@ Resources:
       - AWSLambdaExecute
       - AmazonS3FullAccess
       - AmazonKinesisFirehoseFullAccess
-      CodeUri: s3://palkinvp-installation-media/e167411240fee1df04c622a1193c255f
+      CodeUri: s3://palkinvp-installation-media/24a4a8567887d3e7f05e87b5513026e5
